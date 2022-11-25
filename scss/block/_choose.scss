@@ -71,6 +71,28 @@
     }
 
 }
+.item-2{
+    &::before {
+        content: "";
+        display: inline-block;
+        width: 72px;
+        height: 72px;
+        background-image: url(../../img/sovga.svg);
+        background-repeat: no-repeat;
+        margin-bottom: 56px;
+    }
+}
+.item-3{
+    &::before {
+        content: "";
+        display: inline-block;
+        width: 72px;
+        height: 72px;
+        background-image: url(../../img/car.svg);
+        background-repeat: no-repeat;
+        margin-bottom: 56px;
+    }
+}
 
 .choose__sub-title {
     font-weight: 900;
