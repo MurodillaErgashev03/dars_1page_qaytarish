@@ -1,0 +1,113 @@
+.site-footer {
+    padding: 20px;
+    margin-top: 300px;
+    margin-bottom: 88px;
+
+    &__container {
+        justify-content: space-between;
+        max-width: 1280px;
+        height: 120px;
+        background: #2C343E;
+        padding: 45px 85px;
+        display: flex;
+    }
+    .site-footer__box{
+        display: flex;
+        align-items: center;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 71px;
+
+    }
+
+    &__link {
+
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #83888F;
+        margin-left: 32px;
+    }
+
+    &__list-1 {
+        display: flex;
+       
+        align-items: center;
+    }
+
+    &__item-1 {
+        margin-left: 24px;
+    }
+
+    .site-footer__img {
+        width: 236px;
+        height: 26px;
+    }
+
+    .site-footer__item-img {
+        width: 24px;
+        height: 24px;
+    }
+
+    @media screen and (max-width: 1000px) {
+        .site-footer__container {
+            max-width: 688px;
+            height: 270px;
+            flex-direction: column;
+            text-align: center;
+        }
+        .site-footer__box{
+            flex-direction: column; 
+        }
+        .site-footer__list{
+               margin: 0;
+        }
+        .site-footer__item{
+            margin-top: 32px;
+        }
+        .site-footer__list-1{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        
+    }
+    @media screen and (max-width: 700px){
+        
+        .site-footer__container {
+            margin-top: 500px;
+            max-width: 327px;
+            height: 346px;
+            flex-direction: column;
+            text-align: center;
+        }
+        .site-footer__box{
+            flex-direction: column; 
+        }
+        .site-footer__list{
+               margin: 0;
+               flex-direction: column;
+        }
+        .site-footer__item{
+            margin-top: 32px;
+        }
+        .site-footer__list-1{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .site-footer__link{
+            margin-left: 0;
+        }
+        
+    }
+}
